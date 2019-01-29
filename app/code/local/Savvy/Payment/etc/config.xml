@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Savvy_Payment>
+            <version>0.1.8</version>
+        </Savvy_Payment>
+    </modules>
+    <global>
+        <helpers>
+            <savvy>
+                <class>Savvy_Payment_Helper</class>
+            </savvy>
+        </helpers>
+
+        <blocks>
+            <savvy>
+                <class>Savvy_Payment_Block</class>
+            </savvy>
+        </blocks>
+
+        <models>
+            <savvy>
+                <class>Savvy_Payment_Model</class>
+                <resourceModel>savvy_resource</resourceModel>
+            </savvy>
+
+            <savvy_resource>
+                <class>Savvy_Payment_Model_Resource</class>
+                <entities>
+                    <payment>
+                        <table>savvy_payment</table>
+                    </payment>
+                    <paymenttxn>
+                        <table>savvy_payment_txn</table>
+                    </paymenttxn>
+                </entities>
+            </savvy_resource>
+        </models>
+
+        <resources>
+            <savvy_setup>
+                <setup>
+                    <module>Savvy_Payment</module>
+                    <class>Savvy_Payment_Model_Resource_Setup</class>
+                </setup>
+            </savvy_setup>
+        </resources>
+        <events>
+            <admin_system_config_changed_section_payment>
+                <observers>
+                    <savvy_payments>
+                        <type>singleton</type>
+                        <class>savvy/observer_config</class>
+                        <method>adminSaveSettingSavvy</method>
+                    </savvy_payments>
+                </observers>
+            </admin_system_config_changed_section_payment>
+        </events>
+    </global>
+
+    <default>
+        <payment>
+            <savvy>
+                <active>0</active>
+                <model>savvy/payment_method</model>
+                <order_status>pending</order_status>
+                <title>Crypto Payments </title>
+                <allowspecific>0</allowspecific>
+                <payment_action>sale</payment_action>
+                <testnet>0</testnet>
+                <lock_address_timeout>86400</lock_address_timeout>
+                <debug>0</debug>
+            </savvy>
+        </payment>
+    </default>
+
+    <frontend>
+        <routers>
+            <savvy>
+                <use>standard</use>
+                <args>
+                    <module>Savvy_Payment</module>
+                    <frontName>savvy</frontName>
+                </args>
+            </savvy>
+        </routers>
+        <layout>
+            <updates>
+                <savvy_layout module="Savvy_Payment">
+                    <file>savvy.xml</file>
+                </savvy_layout>
+            </updates>
+        </layout>
+    </frontend>
+</config>
