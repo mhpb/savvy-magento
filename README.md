@@ -18,7 +18,7 @@ Once registered, you can manage the currencies you want to integrate in the Memb
  4. Click on "Magento Connect"
  5. Click on "Magento Connect Manager". If necessary: Log in with your initials again
  6. Select the field "Direct package file upload"
- 7. Upload PayBear Payments plugin file and click "Upload" button
+ 7. Upload Savvy Payments plugin file and click "Upload" button
  8. Go to System → Configuration → Payment Methods -> Savvy Payment
  9. Select Enabled -> Yes and add Api Key
 
