@@ -12,7 +12,7 @@ Once registered, you can manage the currencies you want to integrate in the Memb
 <h3>How to install</h3>
 
  
- 1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/releases/download/v1.0.0/Savvy_Payment-0.1.8.tgz
+ 1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/releases/download/v1.0.1/Savvy_Payment-1.0.1.tgz
  2. Log in to your Magento Administration page as administrator
  3. Click on "System" in the top menu
  4. Click on "Magento Connect"
