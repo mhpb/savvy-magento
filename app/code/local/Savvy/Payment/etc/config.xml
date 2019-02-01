@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Savvy_Payment>
-            <version>0.1.8</version>
+            <version>1.0.2</version>
         </Savvy_Payment>
     </modules>
     <global>

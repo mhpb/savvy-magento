@@ -2,8 +2,8 @@
 
 class Savvy_Payment_Helper_Data extends Mage_Core_Helper_Abstract {
 
-    const API_DOMAIN                    = 'https://api.paybear.io';
-    const API_DOMAIN_TEST               = 'http://api.test.paybear.io';
+    const API_DOMAIN                    = 'https://api.savvytech.com';
+    const API_DOMAIN_TEST               = 'http://api.test.savvytech.com';
     const EMAIL_TEMPLATE_UNDERPAIMENT   = 'savvy_underpayment_email';
     const EMAIL_TEMPLATE_OVERPAIMENT    = 'savvy_overpayment_email';
 
