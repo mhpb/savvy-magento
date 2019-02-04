@@ -25,7 +25,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 <h3>How to install</h3>
 
  
- 1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/releases/download/v1.0.2/Savvy_Payment-1.0.2.tgz
+ 1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/releases/download/v1.0.3/Savvy_Payment-1.0.3.tgz
  2. Log in to your Magento Administration page as administrator
  3. Click on "System" in the top menu
  4. Click on "Magento Connect"
@@ -37,7 +37,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
  
 <h3>How to upgrade</h3>
 
-1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/archive/v1.0.2.zip
+1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/archive/v1.0.3.zip
 2. Extract the package and connect to your server using SFTP Clients. Then upload the **folder** contents (and rewrite files with the old ones) to Magento root.
 3. Clear cache. 
 

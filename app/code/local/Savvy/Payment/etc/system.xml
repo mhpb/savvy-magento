@@ -53,6 +53,15 @@
                             <show_in_store>0</show_in_store>
                             <sort_order>41</sort_order>
                         </api_testnet>
+                        <api_testnet_public translate="label">
+                            <label>Api Key (Testnet Public)</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>Testnet Public API key</comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <sort_order>41</sort_order>
+                        </api_testnet_public>
                         <testnet translate="label">
                             <label>Testnet</label>
                             <frontend_type>select</frontend_type>
