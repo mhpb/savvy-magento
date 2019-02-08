@@ -13,11 +13,11 @@ class Savvy_Payment_Model_Observer_Config
         }
 
         if ($response['success'] === false ) {
-            $message = '<b> Savvy Payment: </b> Your API Key does not seem to be correct. Get your key at <a href="https://www.savvytech.com/" target="_blank"><b>savvytech.com</b></a>';
+            $message = '<b> Savvy Payment: </b> Your API Key does not seem to be correct. Get your key at <a href="https://www.savvy.io/" target="_blank"><b>savvy.io</b></a>';
         }
 
         if ($response['success'] === true && empty($response['data'])) {
-            $message = '<b> Savvy Payment: </b> You do not have any currencies enabled, please enable them to your Merchant Dashboard: <a href="https://www.savvytech.com/" target="_blank"><b>savvytech.com</b></a>';
+            $message = '<b> Savvy Payment: </b> You do not have any currencies enabled, please enable them to your Merchant Dashboard: <a href="https://www.savvy.io/" target="_blank"><b>savvy.io</b></a>';
         }
 
         if ($message) {
