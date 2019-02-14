@@ -8,7 +8,7 @@ Users have the opportunity to manage the currencies they would like to accept in
 <h3>Who do we expect to use this documentation?</h3>
 You’re in the right place if you’re a developer or a shop owner looking to integrate a new payment method into your shopping cart.
 
-Attention to PayBear users: if you have PayBear plugin installed, please [read this](https://github.com/savvytechcom/savvy-samples/wiki/Upgrading-from-V2-to-V3)
+Attention to PayBear users: if you have PayBear plugin installed, please [read this](https://github.com/savvyio/savvy-samples/wiki/Upgrading-from-V2-to-V3)
 
 <h3>Prerequisites</h3>
 Before installing the plugin please make sure you have the latest version of Magento installed. We support version 1.8, 1.9.x
@@ -25,7 +25,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 <h3>How to install</h3>
 
  
- 1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/releases/download/v1.0.3/Savvy_Payment-1.0.3.tgz
+ 1. Download the latest version of the integration: https://github.com/savvyio/savvy-magento/releases/download/v1.0.3/Savvy_Payment-1.0.3.tgz
  2. Log in to your Magento Administration page as administrator
  3. Click on "System" in the top menu
  4. Click on "Magento Connect"
@@ -37,7 +37,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
  
 <h3>How to upgrade</h3>
 
-1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-magento/archive/v1.0.3.zip
+1. Download the latest version of the integration: https://github.com/savvyio/savvy-magento/archive/v1.0.3.zip
 2. Extract the package and connect to your server using SFTP Clients. Then upload the **folder** contents (and rewrite files with the old ones) to Magento root.
 3. Clear cache. 
 
